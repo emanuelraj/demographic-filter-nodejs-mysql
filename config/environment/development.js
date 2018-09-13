@@ -3,7 +3,7 @@ let local = require('../local.env.js');
 // Development specific configuration
 // ==================================
 module.exports = {
-    port: 8001,
+    port: 8081,
     ip: '0.0.0.0',
     seedDB: false,
     mysql: {
