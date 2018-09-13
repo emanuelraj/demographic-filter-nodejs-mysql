@@ -1,0 +1,29 @@
+{
+  "name": "demographic-filter-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "Demographic-filter nodejs mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demographic-filter",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Allen Emanuel Raj D",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "composable-middleware": "^0.3.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
