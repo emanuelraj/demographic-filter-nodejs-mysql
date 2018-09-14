@@ -5,7 +5,7 @@ let local = require('../local.env.js');
 module.exports = {
      // Server IP
      ip: process.env.IP ||undefined,
-     port: 8080,
+     port: 8081,
      mysql: {
         host: process.env.DB_HOST || local.mysql.host,
         user: process.env.DB_USER || local.mysql.user,
